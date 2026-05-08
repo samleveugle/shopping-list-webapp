@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Boodschappenlijst</title>
+    <link rel="stylesheet" href="css/template.css">
+</head>
+<body>
+    <div class="setup-container">
+        <img id="shop_logo" src="assets/img/logo_aldi.png" height="80">
+        <select id="shop_select">
+            <option value="aldi">Aldi</option>
+            <option value="colruyt">Colruyt</option>
+            <option value="delhaize">Delhaize</option>
+        </select>
+        <input id="firstname" placeholder="Voornaam" type="text">
+        <label class="checkbox-container"><input type="checkbox" id="remember">Bewaar voorkeuren</label>
+        <button id="btn_start" disabled>Boodschappenlijst opstellen</button>
+    </div>
+
+    <div class="app-container">
+        <img id="shop_logo_app" class="app-logo">
+        <div class="header-container">
+            <p id="welcome_name"></p>
+            <p id="welcome_date"></p>
+        </div>
+        <div class="input-container">
+            <input id="product_name" placeholder="Productnaam">
+            <input id="product_amount" placeholder="Hoeveelheid">
+            <button id="btn_add">Toevoegen</button>
+        </div>
+        <div class="list-container"></div>
+    </div>
+
+    <script src="js/boodschappenlijst.js"></script>
+</body>
+</html>
