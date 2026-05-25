@@ -1,7 +1,19 @@
-Shopping list webapp
+Shopping List Web App
 
-Dit project heb ik gemaakt tijdens mijn opleiding Clientside-scripting.
+This project was created during my Clientside Scripting course.
 
-Functionaliteit: Gebruiker kiest een winkelketen en vult zijn voornaam in. Producten kunnen toegevoegd, verhoogd, verlaagd, geschrapt en verwijderd worden. Producten worden alfabetisch gesorteerd weergegeven. Cookies bewaren de winkelvoorkeur en voornaam gedurende 5 dagen. Inclusief validatie van invoervelden, geluidseffecten en dynamische aanpassing van logo en achtergrondkleur.
+Functionality
+Users can select a supermarket chain and enter their first name. Products can be added, increased, decreased, crossed off, and removed. The product list is displayed in alphabetical order.
 
-Technologie: HTML CSS JavaScript
+Cookies are used to store the selected supermarket and the user's first name for 5 days.
+
+
+The application also includes:
+Input validation
+Sound effects
+Dynamic logo and background color changes based on the selected supermarket
+
+Technologies:
+HTML
+CSS
+JavaScript
