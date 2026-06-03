@@ -1,4 +1,4 @@
-Shopping List Web App
+Shopping List Manager Web App
 
 Interactive shopping list application created during my Clientside Scripting course.
 
